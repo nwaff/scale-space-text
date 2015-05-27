@@ -6,7 +6,8 @@ import preprocess as pp
 
 # Note : this process can takes about 15-20 mins for 1-4mil words
 # Building graph from a corpus
-f = open('/home/nathanaelongest word in dictionary/sfsu/fall_2014/696_project/data_text/giga-nyt.tok')
+filename = "path to corpus"
+f = open(filename)
 text = f.read()
 f.close()
 words = pp.prep_text(text)

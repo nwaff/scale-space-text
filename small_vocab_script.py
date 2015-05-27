@@ -11,6 +11,7 @@ import preprocess as pp
 #semantic_graph = lm.rebuild_graph('semantic_graph.p', 'npdict_1mil.p')
 
 #load saved semantic graph
+#Would need pickled file for semantic_graph current directory
 filename = 'semantic_graph.p'
 semantic_graph = lm.load_semantic_graph(filename)
 

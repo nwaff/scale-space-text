@@ -28,7 +28,8 @@ vocab = semantic_graph.keys()
 
 # This is an absolute path! sorry needs to update to read local path.
 # filename = '/home/nathanael/IdeaProjects/pointMutualInfo/text_filter2d/didion.txt'
-filename = '/home/nathanael/IdeaProjects/pointMutualInfo/text_filter2d/paper_draft.txt'
+# Would need to update with path to local file
+filename = 'path/to/local/text/file'
 
 # Load a text
 text = pp.read_textfile(filename)

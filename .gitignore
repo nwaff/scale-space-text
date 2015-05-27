@@ -1,0 +1,12 @@
+# python
+#------
+*.pyc
+
+
+# other
+#-----
+*.txt
+*.iml
+text/
+data/
+
