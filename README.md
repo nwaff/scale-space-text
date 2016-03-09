@@ -14,7 +14,7 @@ repo under the title scale_draft1.pdf.
 The original paper is here: http://arxiv.org/abs/1212.2145
 
 The main functions are separated into several modules.
-Use of the modules is demonstrated in the _script
+Use of the modules is demonstrated in the script
 files
 
 
@@ -51,7 +51,7 @@ build_graph_script.py
 small_vocab_test.py
     Demonstrates filtering on a reduced vocabulary. This
     enables the result to be visualized, since using
-    on a full vocabular can make the semantic axis
+    a full vocabulary would make the semantic axis
     much greater than the spatial axis (x).
 
 keyword_script.py
