@@ -1,7 +1,6 @@
 __author__ = 'nathanael'
 '''
-Most functions based on module found on Github, 
-github.com/bdewilde/toolbox
+Most functions based on github.com/bdewilde/toolbox
 '''
 
 import nltk
