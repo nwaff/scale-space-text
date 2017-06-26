@@ -1,14 +1,13 @@
 Script overview
 =======
-
-The corpus used to build the initial pointwise mutual innformation(PMI) graph
-is not included and would need to be rebuilt using the build_graph_script.
-
 The paper describing this project is included in the repo under the title scale_draft1.pdf.
 The algorithm is based on [this paper](http://arxiv.org/abs/1212.2145) by Shuang Yang. 
 
 The main functions are separated into several modules.
 Use of the modules is demonstrated in the script files
+
+The corpus used to build the initial pointwise mutual innformation(PMI) graph
+is not included and would need to be rebuilt using the build_graph_script.
 
 Modules
 ------
