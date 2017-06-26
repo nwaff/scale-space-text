@@ -1,29 +1,14 @@
 Script overview
 =======
 
-NOTE: The text file names included in the script are
-absolute filepaths and would need to be updated match
-your file path in order to run.
-The corpus used to build the initial pointwise
-mutual innformation(PMI) graph
-is not included and would need to be rebuilt 
-using the build_graph_script.
+The corpus used to build the initial pointwise mutual innformation(PMI) graph
+is not included and would need to be rebuilt using the build_graph_script.
 
-The paper describing this project is included in the
-repo under the title scale_draft1.pdf.
-The original paper is here: http://arxiv.org/abs/1212.2145
+The paper describing this project is included in the repo under the title scale_draft1.pdf.
+The algorithm is based on [this paper](http://arxiv.org/abs/1212.2145) by Shuang Yang. 
 
 The main functions are separated into several modules.
-Use of the modules is demonstrated in the script
-files
-
-
-Text files:
-------
-didion.txt :
-     a clip from a book review
-paper_draft.txt :
-    a draft of the paper handed in with this project
+Use of the modules is demonstrated in the script files
 
 Modules
 ------
@@ -63,4 +48,12 @@ Data
 ------
 In the current scripts data is loaded from the semantic_graph.p
 file which has around 82,000 bigrams with 16,000 unique words.
+
+
+Text files:
+------
+didion.txt :
+     a clip from a book review
+paper_draft.txt :
+    a draft of the paper handed in with this project
 
